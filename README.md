@@ -89,3 +89,15 @@ The role of CNN is to reduce the images into a form that is easier to process, w
 <br>
 
 ![Test_Image](https://miro.medium.com/max/498/1*DXO0ADta5SmnOanklrw4og.png)
+![Test_Image](https://miro.medium.com/max/498/1*kpR58Dd9_v2cfjz8cDUsuQ.png)
+Above Image Illustrates images with edges when a filter2D transformation is applied to the data. Note that the two images are significantly different. When we talk about convolution layers and Kernels we basically want to identify the edges in an image. When working with CNN the matrix_x and matrix_y values are determined automatically by the network.
+
+<br><br>
+#### Why ReLU?<hr>
+ReLU or rectified linear unit is a process of applying an activation function to increase the non-linearity of the network without affecting the receptive fields of convolution layers. ReLU allows faster training of the data, whereas Leaky ReLU can be used to handle the problem of vanishing gradient. Some of the other activation functions include Leaky ReLU, Randomized Leaky ReLU, Parameterized ReLU Exponential Linear Units (ELU), Scaled Exponential Linear Units Tanh, hardtanh, softtanh, softsign, softmax, and softplus.
+
+![Test_Image](https://thumbs.gfycat.com/GoodShinyGhostshrimp-mobile.mp4)
+
+
+
+
