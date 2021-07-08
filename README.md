@@ -96,8 +96,8 @@ Above Image Illustrates images with edges when a filter2D transformation is appl
 #### Why ReLU?<hr>
 ReLU or rectified linear unit is a process of applying an activation function to increase the non-linearity of the network without affecting the receptive fields of convolution layers. ReLU allows faster training of the data, whereas Leaky ReLU can be used to handle the problem of vanishing gradient. Some of the other activation functions include Leaky ReLU, Randomized Leaky ReLU, Parameterized ReLU Exponential Linear Units (ELU), Scaled Exponential Linear Units Tanh, hardtanh, softtanh, softsign, softmax, and softplus.
 
-![Test_Image](https://thumbs.gfycat.com/GoodShinyGhostshrimp-mobile.mp4)
-
+![Test_Image](https://miro.medium.com/max/875/1*LjQ_6xhpzulB1eev01KzdQ.gif)
+ Illustrates how kernels work with an image that has R-G-B channels. Image credits
 
 
 
