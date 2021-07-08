@@ -54,14 +54,14 @@ Before we jump into the concepts further let’s try and understand these indivi
 ![Test_Image](https://miro.medium.com/max/2000/0*BVil_XCudTACe0vD.jpeg)
 
 <br>
-#### Why grayscale and not RGB/Color Images?<hr>
+#### Why grayscale and not RGB/Color Images?
 ![Test_Image](https://miro.medium.com/max/688/0*6lrbxTDUty2RkGVB.png)
 
 * The challenge with images having multiple color channels is that we have huge volumes of data to work with which makes the process computationally intensive. In other worlds think of it like a complicated process where the Neural Network or any machine learning algorithm has to work with three different data (R-G-B values in this case) to extract features of the images and classify them into their appropriate categories.
 The role of CNN is to reduce the images into a form that is easier to process, without losing features critical towards a good prediction. This is important when we need to make the algorithm scalable to massive datasets.
 <br><br>
 
-#### What are convolutions?<hr>
+#### What are convolutions?
 ![Test_Image](https://giphy.com/gifs/blog-daniel-keypoints-i4NjAwytgIRDW?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=https%3A%2F%2Fcdn.embedly.com%2F)
 
 * We understand that the training data consists of grayscale images which will be an input to the convolution layer to extract features. The convolution layer consists of one or more Kernels with different weights that are used to extract features from the input image. Say in the example above we are working with a Kernel (K) of size 3 x 3 x 1 (x 1 because we have one color channel in the input image), having weights outlined below.
