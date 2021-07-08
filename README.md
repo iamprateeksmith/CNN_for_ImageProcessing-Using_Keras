@@ -14,13 +14,12 @@ Image classification is the process of segmenting images into different categori
 
 The Shape of the image is 400 x 408 x 3 where 400 represents the height, 400 the width and 3 represents the number of color channels. When we say 400 x 400 it means we have 1,60,000 pixels in the data and every pixel has a R-G-B value hence 3 color channels
 
-<br><br><br>
     image[0][0]
     array([193, 159, 113], dtype=uint8)
     Note:
           image [0][0] provides us with the pixel and 193, 159, 113 are the R-G-B values
           
-<br><br><br>        
+<br><br>        
 #### The output of gray.shape is 400 x 400. What we see right now is an image consisting of 1,60,000 odd pixels but consists of one channel only.
 
 When we try and covert the pixel values from the grayscale image into a tabular form this is what we observe.
@@ -32,7 +31,7 @@ When we try and covert the pixel values from the grayscale image into a tabular 
         Output: (192600,)
 We have the grayscale value for all 192,600 pixels in the form of an array.
 
-<br><br><br>
+<br>
 flattened
 array([149, 147, 160, ..., 156, 137,  53], dtype=uint8)
 Note a grayscale value can lie between 0 to 255, 0 signifies black and 255 signifies white.
@@ -52,7 +51,7 @@ Note a grayscale value can lie between 0 to 255, 0 signifies black and 255 signi
 It is very important to understand that ANN or Artificial Neural Networks, made up of multiple neurons is not capable of extracting features from the image. This is where a combination of convolution and pooling layers comes into the picture. Similarly, the convolution and pooling layers can’t perform classification hence we need a fully connected Neural Network.
 
 Before we jump into the concepts further let’s try and understand these individual segments separately.
-![TEST_IMAGE]('https://miro.medium.com/max/2000/0*BVil_XCudTACe0vD.jpeg')
+![Test_Image]('https://miro.medium.com/max/2000/0*BVil_XCudTACe0vD.jpeg')
 
 
 
