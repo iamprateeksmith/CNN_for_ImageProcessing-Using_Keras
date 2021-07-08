@@ -54,7 +54,8 @@ Before we jump into the concepts further let’s try and understand these indivi
 ![Test_Image](https://miro.medium.com/max/2000/0*BVil_XCudTACe0vD.jpeg)
 
 <br>
-#### Why grayscale and not RGB/Color Images?
+<strong>Why grayscale and not RGB/Color Images?</strong>
+
 ![Test_Image](https://miro.medium.com/max/688/0*6lrbxTDUty2RkGVB.png)
 
 * The challenge with images having multiple color channels is that we have huge volumes of data to work with which makes the process computationally intensive. In other worlds think of it like a complicated process where the Neural Network or any machine learning algorithm has to work with three different data (R-G-B values in this case) to extract features of the images and classify them into their appropriate categories.
