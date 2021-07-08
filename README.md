@@ -62,7 +62,7 @@ Before we jump into the concepts further let’s try and understand these indivi
 The role of CNN is to reduce the images into a form that is easier to process, without losing features critical towards a good prediction. This is important when we need to make the algorithm scalable to massive datasets.
 <br><br>
 
-#### What are convolutions?
+<strong>What are convolutions?</strong>
 ![Test_Image](https://giphy.com/gifs/blog-daniel-keypoints-i4NjAwytgIRDW?utm_source=iframe&utm_medium=embed&utm_campaign=Embeds&utm_term=https%3A%2F%2Fcdn.embedly.com%2F)
 
 * We understand that the training data consists of grayscale images which will be an input to the convolution layer to extract features. The convolution layer consists of one or more Kernels with different weights that are used to extract features from the input image. Say in the example above we are working with a Kernel (K) of size 3 x 3 x 1 (x 1 because we have one color channel in the input image), having weights outlined below.
